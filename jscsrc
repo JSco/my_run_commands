@@ -1,0 +1,6 @@
+{
+	"preset": "crockford",
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    }
+}
