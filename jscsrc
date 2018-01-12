@@ -1,6 +1,34 @@
 {
 	"preset": "crockford",
-    "disallowSpacesInFunctionDeclaration": {
-        "beforeOpeningRoundBrace": true
-    }
+
+	"requireSpacesInAnonymousFunctionExpression": {
+		"beforeOpeningCurlyBrace": true
+	},
+	"disallowSpacesInAnonymousFunctionExpression": {
+		"beforeOpeningRoundBrace": true
+	},
+
+	"requireSpaceAfterKeywords": [
+	    "do",
+	    "for",
+	    "if",
+	    "else",
+	    "switch",
+	    "case",
+	    "try",
+	    "catch",
+	    "void",
+	    "while",
+	    "with",
+	    "return",
+	    "typeof"
+	],
+
+	"requireSpaceAfterLineComment": true,
+
+	"disallowMultipleSpaces": {
+		"allowEOLComments": true
+	},
+
+	"validateIndentation": "\t"
 }
