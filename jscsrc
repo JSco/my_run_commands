@@ -29,6 +29,12 @@
 	"disallowMultipleSpaces": {
 		"allowEOLComments": true
 	},
+	
+	"disallowDanglingUnderscores": false,
+	
+	"disallowKeywords": [
+		"with"
+	],
 
 	"validateIndentation": "\t"
 }
